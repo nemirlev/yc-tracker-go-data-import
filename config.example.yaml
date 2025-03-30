@@ -1,0 +1,16 @@
+# Tracker API settings
+TRACKER_API_ISSUES_URL: "https://api.tracker.yandex.net/v2"
+TRACKER_ORG_ID: ""  # ID организации в Tracker
+TRACKER_OAUTH_TOKEN: ""  # OAuth токен для доступа к API
+TRACKER_FILTER: ""  # Дополнительный фильтр для запросов
+TRACKER_INITIAL_HISTORY_DEPTH: ""  # Глубина истории для начальной загрузки
+
+# PostgreSQL settings
+PG_HOST: "localhost"
+PG_PORT: 5433
+PG_DB: "tracker_metrics"
+PG_USER: "postgres"
+PG_PASSWORD: "postgres"
+PG_SSLMODE: "disable"
+
+LOG_LEVEL: "debug"  # Уровень логирования (debug, info, warn, error)

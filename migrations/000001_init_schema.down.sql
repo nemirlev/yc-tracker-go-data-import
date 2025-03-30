@@ -1,0 +1,6 @@
+DROP VIEW IF EXISTS v_issue_statuses;
+DROP VIEW IF EXISTS v_changelog;
+DROP VIEW IF EXISTS v_issues;
+
+DROP TABLE IF EXISTS changelog;
+DROP TABLE IF EXISTS issues; 
